@@ -1,2 +1,6 @@
 # Markov-Mixing
-Markov Chain Mixing Time DRP Report
+This is the final expository paper from my Directed Reading Program (DRP), in which I worked through portions of *Markov Chains and Mixing Times* by Levin and Peres under the mentorship of Jason Prodromidis. The paper proves that the top-to-random shuffle on nn
+n cards, in which the top card is removed and reinserted at a uniformly random position. exhibits the **cutoff phenomenon** at nlog⁡nn \log n
+nlogn: matching upper and lower bounds in total variation distance show that the deck transitions sharply from "far from random" to "essentially uniform" within a window of width O(n)O(n)
+O(n) around nlog⁡nn \log n
+nlogn shuffles. The upper bound uses strong stationary times and a coupon collector argument; the lower bound uses a distinguishing event based on the relative order of the original bottom cards.
